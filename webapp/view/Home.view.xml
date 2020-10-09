@@ -5,7 +5,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-						<List id="ShortProductList" headerText="List of all employees" items="{ path: 'employee>/employees', sorter: { path: 'Name' } }"
+						<List id="ShortProductList" headerText="List of all employees" items="{ path: 'employee>/employees', sorter: { path: 'employee>firstName' } }"
 							class="sapUiResponsiveContentPadding">
 							<items>
 								<StandardListItem title="{employee>firstName} {employee>lastName}" type="Navigation" press="onListItemPress"/>
